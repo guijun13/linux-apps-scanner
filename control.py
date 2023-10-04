@@ -3,6 +3,9 @@ import keyboard
 import time
 import threading
 
+tab_pressed = False
+tab_counter = 0
+
 def tab_handler(e):
     global tab_pressed, tab_counter
 
